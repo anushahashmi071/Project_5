@@ -1,0 +1,123 @@
+/* section-hero */
+.logo-img {
+    width: 150px;
+}
+
+.sec-hero h1 {
+    background: #374FA1;
+    background: linear-gradient(to top right, #374FA1 10%, #00ADEE 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sec-hero{
+    background-image: url(../images/hero-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.sec-btn {
+    background: rgb(244, 132, 10);
+    background: linear-gradient(350deg, rgba(244, 132, 10, 1) 0%, rgba(252, 184, 81, 1) 100%);
+}
+
+/* section-1 */
+.sec-1-img{
+    max-width: 100%;
+}
+.sec-1 h1 {
+    background: #374FA1;
+    background: linear-gradient(to top right, #374FA1 10%, #00ADEE 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* section-2 */
+.sec-2 .outline-h1 {
+    background: -webkit-linear-gradient(-86deg, #00ADEE 5%, #374FA1 53%, #6c7fbb 91%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 3px transparent;
+    color: #fff;
+    font-size: 60px;
+    margin-left: -18%;
+    white-space: nowrap;
+}
+
+.sec-2 .fill-h1 {
+    background: #374FA1;
+    background: linear-gradient(to top right, #374FA1 10%, #00ADEE 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    margin-left: 36%;
+    white-space: nowrap;
+}
+
+/* section-3 */
+.sec-3 h2 {
+    background: #374FA1;
+    background: linear-gradient(to top right, #374FA1 10%, #00ADEE 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sec-3-text-2 {
+    margin-top: 25%;
+}
+
+.sec-3-text-3 {
+    margin-top: 45%;
+}
+
+/* section-4 */
+.sec-4-img{
+    max-width: 100%;
+}
+.sec-4 h1 {
+    background: #374FA1;
+    background: linear-gradient(to top right, #374FA1 10%, #00ADEE 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* section-5 */
+.sec-5 .row {
+    background: rgb(1, 171, 237);
+    background: linear-gradient(180deg, rgba(1, 171, 237, 1) 0%, rgba(46, 94, 173, 1) 100%);
+    transform: translateY(50px);
+}
+
+/* section-footer */
+.sec-footer{
+    background-image: url(../images/footer-bckground-img_02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-logo{
+    max-width: 100%;
+}
+.sec-footer h4 {
+    position: relative;
+}
+
+.sec-footer h4::after {
+    content: "";
+    height: 5px;
+    width: 70px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding: 3px;
+    margin-top: -10px;
+    border-radius: 5px;
+    background: rgb(1, 171, 237);
+    background: linear-gradient(180deg, rgba(1, 171, 237, 1) 0%, rgba(46, 94, 173, 1) 100%);
+    transform: translateY(50px);
+}
+
+.sec-footer li {
+    list-style: none;
+}
